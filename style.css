@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to left, #02dbe4, #000131);
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.txt-leads {
+    text-align: center;
+}
+
+.txt-leads img {
+    margin: 50px 0;
+}
+
+.txt-leads h1 {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #acacac;
+    line-height: 40px;
+    text-align: left;
+}
+
+.txt-leads h1 span {
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.txt-leads p {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.txt-leads p span {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+form {
+    width: 100%;
+    background-color: #0000002a;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+form h2 span {
+    font-size: 0.5em;
+}
+
+.input-box label {
+    display: block;
+    color: #fff;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.btn-enviar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-enviar input {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #01dafe;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-enviar input:hover {
+    background-color: #01d8fe60;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
